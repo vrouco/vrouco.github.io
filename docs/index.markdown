@@ -5,4 +5,4 @@
 layout: home
 ---
 
-Hello world
+This site is work in progress!
