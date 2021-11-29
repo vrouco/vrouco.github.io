@@ -26,7 +26,51 @@ description: >- # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://vrouco.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: jekyllrb
-github_username:  vrouco
+#github_username:  vrouco
+
+# --- Footer social media links --- #
+
+# Select the social network links that you want to show in the footer.
+# Uncomment the links you want to show and add your information to each one.
+social-network-links:
+  email: "victorrouco@gmail.com"
+  #rss: true  # remove this line if you don't want to show an RSS link at the bottom
+  #facebook: 
+  github: vrouco
+  #twitter: daattali
+  #patreon: DeanAttali
+  #youtube: c/daattali
+#  medium: yourname
+#  reddit: yourname
+  linkedin: victor-rouco
+#  xing: yourname
+#  stackoverflow: "3943160/daattali"
+#  snapchat: deanat78
+#  instagram: deanat78
+#  spotify: yourname
+#  telephone: +14159998888
+#  steam: deanat78
+#  twitch: yourname
+#  yelp: yourname
+#  telegram: yourname
+#  calendly: yourname
+#  mastodon: instance.url/@username
+  ORCID: 0000-0003-2604-3482
+#  google-scholar: your google scholar
+
+# If you want your website to generate an RSS feed, provide a description
+# The URL for the feed will be https://<your_website>/feed.xml
+rss-description: This website is a virtual proof that I'm awesome
+
+# --- General options --- #
+
+# Select which social network share links to show in posts
+share-links-active:
+  twitter: false
+  facebook: true
+  linkedin: true
+  ORCID: false
+
 
 # Build settings
 theme: minima
